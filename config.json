@@ -1,0 +1,26 @@
+{
+    "general_description": "Confuguration for TSP.",
+    "test_mode_description": "enables algorithm testing.",
+    "simulation_mode_description": "does chosen algorithm on chosen graphs x times and saves results to proper file",
+    "neighbourDefinition_options_description": "-1 -> random; 0 -> inverse; 1 -> swap; 2 -> insert",
+    "mode": "test",
+    "test": {
+      "dataFile": "/Users/rafalzalecki/CLionProjects/TspMetaheuristic/graphs/ftv47.atsp",
+      "worseAcceptanceProbability": 0.8,
+      "alpha": 0.99,
+      "neighbourDefinition": -1,
+      "stopSeconds": 10,
+      "initialPathFromNearestNeighbour": true
+    },
+    "simulation": {
+      "dataFile": "/Users/rafalzalecki/CLionProjects/TspMetaheuristic/graphs/ftv47.atsp",
+      "worseAcceptanceProbability": 0.8,
+      "alpha": 0.99,
+      "neighbourDefinition": -1,
+      "stopSeconds": 1,
+      "initialPathFromNearestNeighbour": true,
+      "outputFileName": "/Users/rafalzalecki/CLionProjects/TspMetaheuristic/results/fix.csv",
+      "runsNumber": 10,
+      "showProgress": true
+    }
+  }
